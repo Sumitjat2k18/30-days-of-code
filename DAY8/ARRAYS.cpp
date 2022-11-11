@@ -62,11 +62,9 @@ vector<string> split(const string &str)
     while ((end = str.find(" ", start)) != string::npos)
     {
         tokens.push_back(str.substr(start, end - start));
-
         start = end + 1;
     }
 
     tokens.push_back(str.substr(start));
-
     return tokens;
 }
