@@ -32,7 +32,6 @@ using namespace std;
 
 int main()
 {
-
     int n, phone;
     cin >> n;
     map<string, int> m;
